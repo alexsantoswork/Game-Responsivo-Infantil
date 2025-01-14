@@ -1,0 +1,26 @@
+README: Jogo Infantil Responsivo
+
+Este projeto é um jogo infantil desenvolvido com HTML, CSS e JavaScript. O jogo foi projetado para ser responsivo, adaptando-se a diferentes tamanhos de tela.
+
+Funcionalidades:
+
+Jogabilidade: O desafio do jogo é voar por cima do vilão 'Macaco Louco', a cada mil pontos o jogo fica mais rapido e ao alcançar 5.000 pontos o jogo é concluido.
+Gráficos: Formatos das imagens em jpg, png e gif
+Responsividade: O jogo se ajusta automaticamente a diferentes dispositivos, desde smartphones até desktops.
+
+Tecnologias Utilizadas:
+HTML: Estrutura da página.
+CSS: Estilização visual e layout responsivo.
+JavaScript: Lógica do jogo, interações e animações.
+
+Como Executar:
+Clonar o repositório:
+Bash
+
+git clone https://
+Abrir o index.html: Abra o arquivo index.html em seu navegador web preferido.
+Contribuições:
+Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request.
+
+Autor:
+Alex dos Santos de Lima

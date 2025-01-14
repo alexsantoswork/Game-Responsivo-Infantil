@@ -1,0 +1,234 @@
+@font-face {
+    font-family: mario;
+    src: url(../fonts/super_bubble/Super\ Bubble.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: mario;
+    font-weight: 100;
+}
+
+.game-board {
+    position: relative;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    background-image: url(../images/cidade.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-bottom: 100px solid rgb(54, 146, 54);
+    
+}
+
+.introducao {
+    width: 600px;
+    text-align: center;
+    margin: 150px auto;
+    color: aliceblue;
+    background-color: rgb(109, 1, 109);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.pipe {
+    position: absolute;
+    bottom: 0;
+    width: 180px;
+    visibility: hidden;
+    transform: rotate(-10deg);
+}
+
+.pipeInit {
+    animation: pipe-animation 1.490s infinite linear;
+    visibility: visible;
+}
+
+.pipeInitLevelTwo {
+    animation: pipe-animation 1.489s infinite linear;
+    visibility: visible;
+}
+
+.pipeInitLevelTree {
+    animation: pipe-animation 1.088s infinite linear;
+    visibility: visible;
+}
+
+.pipeInitLevelFour {
+    animation: pipe-animation 1.087s infinite linear ;
+    visibility: visible;
+}
+
+.pipeInitLevelFive {
+    animation: pipe-animation 1.086s infinite linear ;
+    visibility: visible;
+}
+
+.mario {
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+    visibility: hidden;
+}
+
+.marioInit {
+    visibility: visible;
+}
+
+.jump {
+    animation: jump 800ms ease-out;
+}
+
+.clouds {
+    position: absolute;
+    animation: clouds-animation 20s infinite linear;
+    visibility: hidden;
+}
+
+.cloudsInit {
+    visibility:visible;
+}
+
+.btnPular {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    align-self: center;
+    left: 43%;
+    background-color: rgb(20, 187, 20);
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btnPular:hover {
+    background-color: rgb(2, 126, 2);
+}
+
+.btnPularRemove{
+    visibility: hidden;
+}
+
+.btnStart {
+    position: absolute;
+    width: 200px;
+    height: 80px;    
+    text-align: center;
+    background-color: rgb(168, 66, 143);
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btnStart:hover {
+    background-color: rgb(109, 1, 109);
+}
+
+.btnStartRemove {
+    visibility: hidden;
+}
+
+.btnRestart {
+    visibility: hidden;
+}
+
+.btnRestartOpen {
+    position: absolute;
+    visibility: visible;
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    bottom: 50px;
+    left: 43%;
+    background-color: rgb(168, 66, 143);
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btnRestartOpen:hover {
+    background-color: rgb(109, 1, 109);
+}
+
+
+@keyframes pipe-animation {
+    from {
+        right: -80px;
+    }
+
+    to {
+        right: 100%;
+    }
+}
+
+@keyframes jump {
+    0% {
+        bottom: 0;
+    }
+
+    40% {
+        bottom: 170;
+    }
+
+    50% {
+        bottom: 180px;
+    }
+
+    60% {
+        bottom: 170px;
+    }
+
+    100% {
+        bottom: 0;
+    }
+}
+
+@keyframes clouds-animation {
+    from {
+        right: -550px;
+    }
+
+    to {
+        right: 100%;
+    }
+}
+
+.result {
+    font-size: 70px;
+    position: absolute;
+    bottom: 60%;
+    left: 48%;
+    color: rgb(64, 22, 104);
+}
+
+.campeao {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(186, 252, 132);
+    background-image: url(../images/jessy-power.gif);
+    background-position: 500px 150px;
+    background-repeat: no-repeat;
+}
+
+.finish {
+    display: none;
+}
+
+#premio {
+    z-index: 1;
+    position: absolute;
+    left: 33%;
+    bottom: 70%;
+}

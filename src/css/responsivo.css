@@ -1,0 +1,304 @@
+@media (max-width: 2600px) {
+    .btnStart {
+        left: 46.5%
+    }
+    
+    .btnPular {
+        position: fixed;
+        top: 89.5%;
+        left:46.5%;
+    }
+
+    .btnRestartOpen {
+        position: fixed;
+        top: 89.5%;
+        left:46.5%;
+    }
+
+    #premio {
+        left: 40%;
+        text-align: center;
+    }
+
+    .campeao {
+        background-position: 50% 200px;
+    }
+
+}
+
+@media (max-width: 2000px) {
+    .btnStart {
+        left: 43%
+    }
+
+    .btnPular {
+        position: fixed;
+        top: 89.5%;
+        left:43%;
+    }
+
+    .btnRestartOpen {
+        position: fixed;
+        top: 89.5%;
+        left:43%;
+    }
+
+    #premio {
+        left: 35%;
+        text-align: center;
+    }
+    
+    .result {
+        left: 45%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .btnStart {
+        left: 42%
+    }
+
+    .btnPular {
+        position: fixed;
+        top: 86%;
+        left:42%;
+    }
+
+    .btnRestartOpen {
+        position: fixed;
+        top: 86%;
+        left:42%;
+    }
+    
+    #premio {
+        left: 33%;
+        text-align: center;
+    }
+    
+    .campeao {
+        background-position: 50% 90%;
+    }
+    
+    .result {
+        top: 40%;
+        left: 44%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .btnStart {
+        left: 37%
+    }
+    .btnPular {
+        position: fixed;
+        top: 89.5%;
+        left:37%;
+    }
+
+    .btnRestartOpen {
+        position: fixed;
+        top: 89.5%;
+        left:37%;
+    }
+
+    #premio {
+        left: 17%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 599px) {
+    .introducao {
+        width: 400px;
+    }
+
+    .btnStart {
+        left: 30%
+    }
+
+    .btnPular {
+        position: fixed;
+        top: 89.5%;
+        left:30%;
+    }
+
+    .mario {
+        width: 60px;
+    }
+
+    .pipe {
+        width: 70px;
+    }
+
+    .btnRestartOpen {
+        position: fixed;
+        top: 89.5%;
+        left:30%;
+    }
+
+    .result {
+        left: 40%;
+    }
+
+    #premio {
+        left: 0;
+        text-align: center;
+    }
+
+    .campeao {
+        background-position: 60% 200px;
+    }
+
+    @keyframes jump {
+        0% {
+            bottom: 0;
+        }
+    
+        40% {
+            bottom: 45px;
+        }
+    
+        50% {
+            bottom: 50px;
+        }
+    
+        60% {
+            bottom: 45px;
+        }
+    
+        100% {
+            bottom: 0;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .introducao {
+        width: 350px;
+    }
+
+    .btnStart {
+        left: 25%
+    }
+
+    .mario {
+        width: 60px;
+    }
+    .pipe {
+        width: 70px;
+    }
+
+    .result {
+        left: 35%;
+    }
+
+    #premio {
+        left: 0;
+        text-align: center;
+    }
+
+    .campeao {
+        background-position: 0px 200px;
+    }
+
+    .btnRestartOpen {
+        position: fixed;
+        top: 89.5%;
+        left: 25%;
+    }
+
+    .btnPular {
+        position: fixed;
+        top: 89.5%;
+        left:25%;
+    }
+
+    @keyframes jump {
+        0% {
+            bottom: 0;
+        }
+    
+        40% {
+            bottom: 45px;
+        }
+    
+        50% {
+            bottom: 50px;
+        }
+    
+        60% {
+            bottom: 45px;
+        }
+    
+        100% {
+            bottom: 0;
+        }
+    }
+
+}
+
+@media (max-width: 350px) {
+    .btnStart {
+        left: 20%
+    }
+
+    .introducao {
+        width: 310px;
+    }
+
+    .btnRestartOpen {
+        position: fixed;
+        top: 89.5%;
+        left:20%;
+    }
+
+    .btnPular {
+        position: fixed;
+        top: 89.5%;
+        left:20%;
+    }
+
+    .mario {
+        width: 50px;
+    }
+
+    .pipe {
+        width: 60px;
+    }
+
+    .result {
+        left: 32%;
+    }
+
+    @keyframes jump {
+        0% {
+            bottom: 0;
+        }
+    
+        40% {
+            bottom: 45px;
+        }
+    
+        50% {
+            bottom: 50px;
+        }
+    
+        60% {
+            bottom: 45px;
+        }
+    
+        100% {
+            bottom: 0;
+        }
+    }
+
+    #premio {
+        left: 0;
+        text-align: center;
+    }
+
+    .campeao {
+        background-position: -25px 200px;
+    }
+    
+}
