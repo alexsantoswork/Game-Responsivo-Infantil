@@ -1,18 +1,22 @@
 @media (max-width: 2600px) {
     .btnStart {
-        left: 46.5%
+        left: 46%
     }
     
     .btnPular {
         position: fixed;
         top: 89.5%;
-        left:44%;
+        left:46%;
     }
 
     .btnRestartOpen {
         position: fixed;
-        top: 20%;
-        left:46.5%;
+        top: 70%;
+        left:46%;
+    }
+
+    .result{
+        left: 47%;
     }
 
     #premio {
@@ -34,17 +38,18 @@
     .btnPular {
         position: fixed;
         top: 89.5%;
-        left:41%;
+        left:43%;
     }
 
     .btnRestartOpen {
         position: fixed;
-        top: 20%;
+        top: 70%;
         left:43%;
     }
 
     #premio {
-        left: 35%;
+        left: 33%;
+        top: 15%;
         text-align: center;
     }
     
@@ -55,7 +60,7 @@
 
 @media (max-width: 1400px) {
     .btnStart {
-        left: 42%
+        left: 40%
     }
 
     .btnPular {
@@ -66,12 +71,12 @@
 
     .btnRestartOpen {
         position: fixed;
-        top: 20%;
-        left:42%;
+        top: 30%;
+        left:40%;
     }
     
     #premio {
-        left: 33%;
+        left: 27%;
         text-align: center;
     }
     
@@ -80,8 +85,8 @@
     }
     
     .result {
-        top: 40%;
-        left: 44%;
+        top: 50%;
+        left: 43%;
     }
 }
 
@@ -92,13 +97,18 @@
     .btnPular {
         position: fixed;
         top: 89.5%;
-        left:35%;
+        left:37%;
     }
 
     .btnRestartOpen {
         position: fixed;
-        top: 20%;
+        top: 30%;
         left:37%;
+    }
+
+    .result {
+        top: 50%;
+        left: 41%;
     }
 
     #premio {
@@ -113,7 +123,7 @@
     }
 
     .btnStart {
-        left: 30%
+        left: 28%
     }
 
     .btnPular {
@@ -132,12 +142,12 @@
 
     .btnRestartOpen {
         position: fixed;
-        top: 20%;
-        left:30%;
+        top: 70%;
+        left:28%;
     }
 
     .result {
-        left: 40%;
+        left: 35%;
     }
 
     #premio {
@@ -178,7 +188,7 @@
     }
 
     .btnStart {
-        left: 25%
+        left: 23%
     }
 
     .mario {
@@ -189,7 +199,7 @@
     }
 
     .result {
-        left: 35%;
+        left: 30%;
     }
 
     #premio {
@@ -203,8 +213,8 @@
 
     .btnRestartOpen {
         position: fixed;
-        top: 20%;
-        left: 25%;
+        top: 70%;
+        left: 23%;
     }
 
     .btnPular {
@@ -239,7 +249,7 @@
 
 @media (max-width: 350px) {
     .btnStart {
-        left: 20%
+        left: 18%
     }
 
     .introducao {
@@ -248,8 +258,8 @@
 
     .btnRestartOpen {
         position: fixed;
-        top: 20%;
-        left:20%;
+        top: 70%;
+        left:18%;
     }
 
     .btnPular {
@@ -267,7 +277,7 @@
     }
 
     .result {
-        left: 32%;
+        left: 28%;
     }
 
     @keyframes jump {
