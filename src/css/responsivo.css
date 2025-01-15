@@ -6,12 +6,12 @@
     .btnPular {
         position: fixed;
         top: 89.5%;
-        left:46.5%;
+        left:44%;
     }
 
     .btnRestartOpen {
         position: fixed;
-        top: 89.5%;
+        top: 20%;
         left:46.5%;
     }
 
@@ -34,12 +34,12 @@
     .btnPular {
         position: fixed;
         top: 89.5%;
-        left:43%;
+        left:41%;
     }
 
     .btnRestartOpen {
         position: fixed;
-        top: 89.5%;
+        top: 20%;
         left:43%;
     }
 
@@ -61,12 +61,12 @@
     .btnPular {
         position: fixed;
         top: 86%;
-        left:42%;
+        left:40%;
     }
 
     .btnRestartOpen {
         position: fixed;
-        top: 86%;
+        top: 20%;
         left:42%;
     }
     
@@ -92,12 +92,12 @@
     .btnPular {
         position: fixed;
         top: 89.5%;
-        left:37%;
+        left:35%;
     }
 
     .btnRestartOpen {
         position: fixed;
-        top: 89.5%;
+        top: 20%;
         left:37%;
     }
 
@@ -119,7 +119,7 @@
     .btnPular {
         position: fixed;
         top: 89.5%;
-        left:30%;
+        left:28%;
     }
 
     .mario {
@@ -132,7 +132,7 @@
 
     .btnRestartOpen {
         position: fixed;
-        top: 89.5%;
+        top: 20%;
         left:30%;
     }
 
@@ -203,14 +203,14 @@
 
     .btnRestartOpen {
         position: fixed;
-        top: 89.5%;
+        top: 20%;
         left: 25%;
     }
 
     .btnPular {
         position: fixed;
         top: 89.5%;
-        left:25%;
+        left:23%;
     }
 
     @keyframes jump {
@@ -248,14 +248,14 @@
 
     .btnRestartOpen {
         position: fixed;
-        top: 89.5%;
+        top: 20%;
         left:20%;
     }
 
     .btnPular {
         position: fixed;
         top: 89.5%;
-        left:20%;
+        left:18%;
     }
 
     .mario {
